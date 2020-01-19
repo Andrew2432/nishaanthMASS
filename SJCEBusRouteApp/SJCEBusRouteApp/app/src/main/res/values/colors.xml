@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors  -->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBlack">#000</color>
+
+    <!--  Primary Gradient Colors  -->
+    <color name="colorGradientPrimaryStart">#C6426E</color>
+    <color name="colorGradientPrimaryEnd">#642B73</color>
+
+    <!--  Utility Colors  -->
+    <color name="colorActionOne">#A123A9</color>
+    <color name="colorActionTwo">#C6426E</color>
+    <color name="colorActionOneAlpha">#99A123A9</color>
+    <color name="colorActionTwoAlpha">#99C6426E</color>
+    <color name="colorActionBorder">#707070</color>
+
+
+</resources>

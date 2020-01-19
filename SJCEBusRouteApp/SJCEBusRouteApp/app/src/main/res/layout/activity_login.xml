@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_gradient_background_main"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/loginCollegeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/collegeName"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/segoe_ui_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/loginCollegeLocation"
+         />
+
+    <TextView
+        android:id="@+id/loginCollegeLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/collegeLocation"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/segoe_ui_bold"
+        app:layout_constraintEnd_toEndOf="@id/loginCollegeName"
+        app:layout_constraintStart_toStartOf="@id/loginCollegeName"
+        app:layout_constraintBottom_toTopOf="@id/loginCollegeLogo"
+         />
+
+    <ImageView
+        android:id="@+id/loginCollegeLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/sjce_logo_round"
+        android:src="@drawable/sjcelogo_transparent"
+        app:layout_constraintBottom_toTopOf="@+id/loginChoice"
+        app:layout_constraintEnd_toEndOf="@id/loginCollegeName"
+        app:layout_constraintStart_toStartOf="@id/loginCollegeName"
+         />
+
+    <TextView
+        android:id="@+id/loginChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chooseOption"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/segoe_ui"
+        app:layout_constraintEnd_toEndOf="@id/loginCollegeName"
+        app:layout_constraintStart_toStartOf="@id/loginCollegeName"
+        app:layout_constraintTop_toBottomOf="@id/guideline" />
+
+    <Button
+        android:id="@+id/loginButtonDriver"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_rounded_primary"
+        android:padding="10dp"
+        android:text="@string/chooseOptionDriver"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/open_sans_regular"
+        app:layout_constraintEnd_toEndOf="@id/loginCollegeName"
+        app:layout_constraintStart_toStartOf="@id/loginCollegeName"
+        app:layout_constraintTop_toBottomOf="@id/loginChoice" />
+
+    <Button
+        android:id="@+id/loginButtonUser"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_rounded_secondary"
+        android:padding="10dp"
+        android:text="@string/chooseOptionUser"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/open_sans_regular"
+        app:layout_constraintEnd_toEndOf="@id/loginCollegeName"
+        app:layout_constraintStart_toStartOf="@id/loginCollegeName"
+        app:layout_constraintTop_toBottomOf="@id/loginButtonDriver" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+</android.support.constraint.ConstraintLayout>

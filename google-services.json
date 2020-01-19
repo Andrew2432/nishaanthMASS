@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "206404863108",
+    "firebase_url": "https://blabla-d2b4c.firebaseio.com",
+    "project_id": "blabla-d2b4c",
+    "storage_bucket": "blabla-d2b4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206404863108:android:aed674d530b6da03dcaed1",
+        "android_client_info": {
+          "package_name": "com.example.busApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206404863108-2cjhtk2n7nrt73gkvi37um30mmqh5tf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Kj718S1Bie2mJ-7Jz76hfBEWuVVJf7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206404863108-2cjhtk2n7nrt73gkvi37um30mmqh5tf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206404863108:android:db81f5b39267e835dcaed1",
+        "android_client_info": {
+          "package_name": "com.netlify.sjcebusapp.sjcebusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206404863108-2cjhtk2n7nrt73gkvi37um30mmqh5tf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Kj718S1Bie2mJ-7Jz76hfBEWuVVJf7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206404863108-2cjhtk2n7nrt73gkvi37um30mmqh5tf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

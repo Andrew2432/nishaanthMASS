@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">SJCEBusRouteApp</string>
+
+    <!-- Splash Screen  -->
+    <string name="splash_screen_title">SJCE BUS ROUTE APP</string>
+
+    <!--  Login Page  -->
+    <string name="collegeName">ST. JOSEPH COLLEGE OF ENGINEERING</string>
+    <string name="collegeLocation">NEMILI, SRIPERUMBUDUR</string>
+    <string name="chooseOption">I am a</string>
+    <string name="chooseOptionDriver">Driver</string>
+    <string name="chooseOptionUser">Student / Staff</string>
+
+    <!-- Login User Page  -->
+    <string name="loginUserTitle">STUDENT / STAFF LOGIN</string>
+    <string name="loginUserNameOrId">Student / Staff ID</string>
+    <string name="loginUserNameOrIdHint">Enter 10 digit number</string>
+    <string name="loginUserPassword">2FA Password</string>
+    <string name="loginUserForgotPwd">Forgot Password?</string>
+    <string name="loginUserSignIn">Sign In</string>
+    <string name="loginUserSignUp">Sign Up</string>
+    <string name="loginUserCompReg">Completed Registration?</string>
+
+    <!--  Login Driver Page  -->
+    <string name="loginDriverTitle">DRIVER LOGIN</string>
+    <string name="loginDriverLastFourDigits">Last 4 digits of bus</string>
+    <string name="loginDriverID">Driver ID</string>
+    <string name="loginDriverSignIn">Sign In</string>
+
+    <!-- Register Page Common Text   -->
+    <string name="registerPageTitle">STUDENT / STAFF REGISTRATION</string>
+    <string name="registerPageDesc">Please fill in the following form. All fields are mandatory to be filled.</string>
+    <string name="registerPageSubDet">To complete the registration, kindly upload the following documents.</string>
+    <string name="registerPageSubWhy">Why we ask this?</string>
+    <string name="registerPageTerms">By selecting "COMPLETE REGISTRATION", I agree to the terms and conditions.</string>
+    <string name="registerPageCompleteReg">COMPLETE REGISTRATION</string>
+    <string name="registerPageCurBusRoute">Current Bus Route:</string>
+
+    <!--  Register Student Page  -->
+    <string name="registerStudentRegNo">Registration Number:</string>
+    <string name="registerStudentDept">Department:</string>
+    <string name="registerStudentYear">Year:</string>
+    <string name="registerStudentMobNo">Mobile Number:</string>
+    <string name="registerStudentSubIDCard">UPLOAD COLLEGE ID CARD</string>
+    <string name="registerStudentSubBusPass">UPLOAD BUS PASS</string>
+
+    <!--  Register Staff Page  -->
+    <string name="registerStaffID">Staff ID:</string>
+    <string name="registerStaffSubIDCard">UPLOAD STAFF ID CARD</string>
+    
+    <!--  Register Verification Page  -->
+    <string name="registerVerifyTitle">VERIFY STATUS OF REGISTRATION</string>
+    <string name="registerVerifyACKID">Enter the ACK ID:</string>
+    <string name="registerVerifyChkSts">Check Status</string>
+    <string name="registerVerifyResTitle">RESULT:</string>
+    <string name="registerVerifyResDef">This is the default text to be used.</string>
+    <string name="registerVerifyBack">Back to Sign In Page</string>
+
+</resources>

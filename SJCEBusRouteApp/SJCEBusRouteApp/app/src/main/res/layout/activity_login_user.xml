@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_gradient_background_main"
+    tools:context=".LoginUserActivity">
+
+    <Button
+        android:id="@+id/loginUserBtnBack"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/loginUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loginUserTitle"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/segoe_ui_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loginUserBtnBack"
+        app:layout_constraintVertical_bias="0.110000014" />
+
+    <LinearLayout
+        android:id="@+id/loginUserLayout1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@id/loginUserName"
+        app:layout_constraintStart_toStartOf="@id/loginUserName"
+        app:layout_constraintTop_toBottomOf="@id/loginUserName">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/loginUserInputID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/loginUserInputIDEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/loginUserNameOrId"
+                android:inputType="number"
+                android:maxLength="12"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
+                android:textSize="20sp"
+                app:fontFamily="@font/open_sans_regular" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/loginUserInputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/loginUserPassword"
+                android:inputType="number"
+                android:maxLength="4"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
+                android:textSize="20sp"
+                app:fontFamily="@font/open_sans_regular" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/loginUserFgtPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/loginUserForgotPwd"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:fontFamily="@font/segoe_ui" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginUserBtnSignIn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rounded_white"
+        android:text="@string/loginUserSignIn"
+        android:textAlignment="center"
+        android:textColor="@color/colorActionOne"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/open_sans_regular"
+        app:layout_constraintEnd_toEndOf="@id/loginUserName"
+        app:layout_constraintStart_toStartOf="@id/loginUserName"
+        app:layout_constraintTop_toBottomOf="@id/guideline3" />
+
+    <Button
+        android:id="@+id/loginUserBtnSignUp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_rounded_primary"
+        android:text="@string/loginUserSignUp"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/open_sans_regular"
+        app:layout_constraintEnd_toEndOf="@id/loginUserName"
+        app:layout_constraintStart_toStartOf="@id/loginUserName"
+        app:layout_constraintTop_toBottomOf="@id/loginUserBtnSignIn" />
+
+    <Button
+        android:id="@+id/loginUserBtnCompReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_rounded_transparent"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="@string/loginUserCompReg"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:fontFamily="@font/open_sans_regular"
+        app:layout_constraintEnd_toEndOf="@id/loginUserName"
+        app:layout_constraintStart_toStartOf="@id/loginUserName"
+        app:layout_constraintTop_toBottomOf="@id/loginUserBtnSignUp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "817143511119",
+    "firebase_url": "https://sjcebusrouteapp-147f0.firebaseio.com",
+    "project_id": "sjcebusrouteapp-147f0",
+    "storage_bucket": "sjcebusrouteapp-147f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817143511119:android:7843ebb62481527bd3923a",
+        "android_client_info": {
+          "package_name": "com.stjosephcollegeofengineering.sjcebusrouteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817143511119-raq482n1b4fip783ggo29avincsk7nr2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stjosephcollegeofengineering.sjcebusrouteapp",
+            "certificate_hash": "29809928b14b0759ee94af55c02b1a2982fc23fb"
+          }
+        },
+        {
+          "client_id": "817143511119-m1mqgafg8tmrnd4dmghmp04o2encg0h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjdFRopFE4CMKIzlaUzpmv1PpxlWdWtN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817143511119-m1mqgafg8tmrnd4dmghmp04o2encg0h6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
